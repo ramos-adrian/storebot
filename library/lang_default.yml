@@ -1,0 +1,54 @@
+name: "Default (english)"
+
+# General
+settings_saved: "Settings saved!"
+replace: "Replace"
+delete: "Delete"
+
+# Control Panel
+opening_cp: "Opening control panel..."
+select_option: "Select option:"
+languages: "Languages"
+cancel_action: "Cancelling action"
+chatflows: "Chatflows"
+
+# Languages
+default_language_name: "Default (English)"
+my_languages: "My languages"
+new_language: "New language"
+language_code: "Code: "
+language_name: "Name: "
+insert_new_language_name: "Insert new language name."
+insert_new_language_code: "Insert new language code."
+default_file: "Here is the default language file, you can use it as a model for translating the bot.\nSend me a translation file:"
+language_name_already_exists: "That language name is already in use!"
+language_code_already_exists: "That language code is already in use!"
+language_added: "Language added succesfully!"
+language_deleted: "Language deleted succesfully! Here is a copy of the file you deleted."
+send_replacing_language: "Send the new language to replace <code>{name}</code>:"
+language_updated: "Language updated!"
+
+# User menu
+opening_menu: "How can I help you?"
+language: "Language"
+
+# Language menu
+select_language: ":United_States: Select your language\n:flag_for_Spain: Selecciona un idioma:"
+invalid_language: "Invalid language."
+
+# Chatflows
+my_chatflows: "My chatflows"
+new_chatflow: "New chatflow"
+chatflow_name: "Name: "
+insert_new_chatflow_name: "Insert new chatflow name."
+insert_new_chatflow_file: "Send me a valid chatflow file."
+chatflow_name_already_exists: "That chatflow name is already in use!"
+chatflow_added: "Chatflow added succesfully!"
+chatflow_deleted: "Chatflow deleted succesfully! Here is a copy of the file you deleted."
+invalid_chatflow: "Invalid chatflow, cancelling action.\n\n{error}"
+send_replacing_chatflow: "Send the new chatflow to replace <code>{name}</code>:"
+chatflow_updated: "Chatflow updated!"
+
+# Dialogs
+welcome_1: "¡Hello {name}! Nice to meet you, I'm Adrián\nI love Telegram, I enjoy designing and making bots for this platform.\nIf you have a project in mind count on me for that 🙂"
+welcome_2: "¡Hello {name}! Nice to meet you, I'm Adrián\nI love Telegram, I enjoy designing and making bots for this platform.\nIf you have a project in mind count on me for that 😉"

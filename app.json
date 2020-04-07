@@ -1,0 +1,28 @@
+{
+  "name": "Adrian Store Bot",
+  "description": "My bot store on Telegram",
+  "repository": "https://github.com/ramos-adrian/storebot",
+  "addons": [
+    {
+      "plan": "heroku-postgresql"
+    }
+  ],
+  "env": {
+    "TOKEN": {
+      "description": "Token provided by @bothfather.",
+      "required": true
+    },
+    "APP_NAME": {
+      "description": "Name of your heroku application.",
+      "required": true
+    },
+    "OWNER_ID": {
+      "description": "Telegram ID of the owner of the bot.",
+      "required": true
+    },
+    "MODE": {
+      "required": false,
+      "value": "heroku"
+    }
+  }
+}
